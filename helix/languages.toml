@@ -1,0 +1,19 @@
+# Michael Percillier's language configuration file for the Helix text editor (17 May 2024)
+[language-server.ltex-ls]
+command = "ltex-ls"
+
+[language-server.ltex-ls.config]
+ltex.dictionary = { "en-GB" = [
+"builtin",
+], "en-US" = [
+"builtin",
+], "de-DE" = ["builtin",
+]}
+
+[[language]]
+name = "markdown"
+language-servers = ["ltex-ls", "marksman"]
+
+[[language]]
+name = "latex"
+language-servers = ["ltex-ls", "texlab"]
