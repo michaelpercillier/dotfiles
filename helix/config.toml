@@ -1,0 +1,21 @@
+# Michael Percillier's configuration file for the Helix text editor (17 May 2024)
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+color-modes = true
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
